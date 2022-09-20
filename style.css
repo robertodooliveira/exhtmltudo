@@ -1,0 +1,52 @@
+@charset  "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+
+* {
+    font-family:'Times New Roman', Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+
+ }
+ p{
+text-align: justify;
+text-indent: 20px;
+font-family:'kaushan Script', serif;
+font-size: 16px;
+
+ }
+
+body{
+    background-image: linear-gradient(to right,#C4BC4B,#CFA846 );
+
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #f8963a;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+
+}
+h1{
+    font-family: 'Rubik Moonrocks',serif;
+    font-size: 20px;
+    color: #B86D30;
+    text-align: center;
+    text-shadow: 1px 1px 2px #f8963a;
+
+}
+h2#principal {
+    background-color: brown;
+    
+
+}
+.elemento{
+    background-color: aqua;
+     color: white;
+}
+
+h2{
+    color: #D15643;
+}

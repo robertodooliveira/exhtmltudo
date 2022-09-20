@@ -1,0 +1,112 @@
+ @charset  "utf-8";
+ @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+        
+        
+ body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #77c97779;
+     margin: -10px;
+ }
+ header{
+    background-image: linear-gradient(to right,#32af32,#058a26 );;
+     padding: 10px;
+     margin: 10px;
+ }
+ h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: white;
+
+     text-align: center;
+    
+ }
+ #cabeca{font-family:Arial, Helvetica, sans-serif ;
+    font-size: 18px;
+    text-align: center;
+    
+    color: white;
+
+ }
+ nav{
+     background-color: #068125;
+     padding: 3px;
+     box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.548);
+
+ }
+ nav:hover{
+background-color:  rgb(42, 165, 62);
+ }
+ nav > a{
+     font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler ;
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+     margin-right: 30px;
+     
+
+ }
+ main{
+     border-radius: 20px;
+     background-color: white;
+     padding: 10px;
+     margin: 0px 96px 9px 113px;
+ }
+ .titulo{
+    color: #058a26;
+    font-family:family Silkscreen;
+    text-align: center;
+    font-size: 23px;
+    border-color: #32af32;
+ }
+ article{
+     background-color: white
+ }
+ h2{
+   color: #058a26;
+   font-family: family Silkscreen;
+   font-size: 20px;
+   background-color: #77c97779;
+ }
+ footer{
+     background-color:#058a26;
+     color: white;
+     text-align: center;
+     padding: 4px;
+     margin: 0px;
+ }
+ footer > p{
+     margin: 0px;
+     text-align: center;
+ }
+a{
+    color: #0f700f;
+    
+}
+#imgrob{
+   
+    margin:auto;
+    
+}
+#vidyou{
+    background-image: linear-gradient(to right,#32af32,#058a26 );;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+
+
+}
+h3{
+    background-color: #51a751c4;
+    color: white;
+    font-family: family Silkscreen;
+    font-size: 20px;
+   
+}
+#tabdofim{
+    background-color:#77c97779 ;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+}

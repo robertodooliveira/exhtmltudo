@@ -1,0 +1,29 @@
+@charset  "utf-8";
+
+div{
+display: inline-block;
+background-color: lightgrey;
+border: 1px solid black;
+text-align: center;
+height: 200px;
+width: 200px;
+
+}
+div:hover{
+    background-color: yellow;
+}
+
+#secundario > p{
+    display: none;
+}
+
+#secundario:hover > p {
+    display: block;
+    color: white;
+    background-color: red;
+    width: 300px;
+
+}
+#secundario:hover{
+    color: red;
+}
