@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>fundo fixo de tela</title>
     <style>
         body{
-            height: 100vh;
+            height: 100vh;/*para dar 100% da pagina branca*/
             background-color: black;
             background-image: url(imagscap19/wallpaper002.jpg);
-            background-position: center center;
-            background-repeat: no-repeat;
+            background-position: center center;/*para alterar a imagem para cima lados ou baixo*/
+            background-repeat: no-repeat;/* para não repetir a imagem*/
             background-size: cover;/* cover para caber toda a imagem, porem nao aparece 100% da imagem*/
+            background-attachment: fixed;/*para deixar a imagem fixa e gerar a rolagem do texto sem que a imagem fique para cima sozinha e surge um fundo da cor do backgroud*/
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;/*ate aonde vai o tamanho do texto pensando em quebrar o texto em um celular*/
             padding: 10px;
             margin: auto;
            
-            border: 1px solid darkblue;
-            border-radius: 15px;
+            border: 1px solid darkblue;/*as bordas do main*/
+            border-radius: 15px;/*o arredondamento das bordas do main*/
         }
 
     </style>
@@ -31,7 +32,15 @@
 <body>
     <main>
         <h1>teste de imagem no fundo </h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit ad eligendi tenetur ratione laudantium ducimus in quia eos voluptatem aliquam officiis dolor, natus placeat. Eaque, accusantium? Cumque, quas impedit! Optio!Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque tenetur, autem voluptatem doloremque, blanditiis ut quisquam voluptate reprehenderit cumque voluptas, temporibus aliquid quaerat! Nihil commodi vel at. Error, quo. Laudantium!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit ad eligendi tenetur ratione laudantium ducimus in quia eos voluptatem aliquam officiis dolor, natus placeat. Eaque, accusantium? Cumque, quas impedit! Optio!Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque tenetur, autem voluptatem doloremque, blanditiis ut quisquam voluptate reprehenderit cumque voluptas, temporibus aliquid quaerat! Nihil commodi vel at. Error, quo. Laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa rem pariatur aliquam nemo. Maxime dolores suscipit illum natus cupiditate minima saepe corporis accusantium repellat, veritatis, eum, repudiandae adipisci facere molestiae.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti iure veritatis commodi quis nemo saepe debitis sint dicta aperiam tempore voluptatem, voluptatibus sed magni. Laborum consequuntur distinctio eveniet voluptatum totam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio vel accusantium similique exercitationem necessitatibus. Exercitationem incidunt dicta, debitis reprehenderit, quibusdam dolorem aliquid eaque nihil eligendi accusantium inventore reiciendis. Maiores, vero.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate aut quaerat nemo, ipsam inventore aliquid totam optio laboriosam amet vel iste enim placeat explicabo, minima aliquam, harum labore incidunt culpa.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima sed ad odit quasi veritatis vitae tempora libero eaque earum dicta error magnam a magni reprehenderit recusandae, laboriosam totam quaerat delectus.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque ipsa quia quis pariatur reprehenderit, ad optio officia dicta, ea natus impedit nesciunt recusandae dolorem ipsum repellat expedita quae rerum?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam cupiditate nesciunt non rem id magni hic vero harum explicabo. Ex nesciunt blanditiis autem eos iste ipsa, velit inventore culpa laudantium?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium perspiciatis nulla repellat praesentium corporis recusandae incidunt et ea quas, eveniet facilis id, accusantium sapiente provident tenetur quae? Eaque, repudiandae illum.
+        </p>
 
     </main>
 
