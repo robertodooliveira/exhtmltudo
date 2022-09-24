@@ -18,3 +18,18 @@ header > h1{
     /*text-transform: uppercase;*para jogar para maiusculas todo o texto*/
     font-variant: small-caps;
 }
+header > p{
+    padding-bottom: 50px;
+
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;/*para colocar em negrito*/
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+
+} 
