@@ -42,6 +42,45 @@
             <input type="tel" name="tel" id="itel" placeholder="22 9 9999 9999" autocomplete="tel" required pattern="^[0-9]{2}[0-9]{5}[0-9]{4}$" minlength="11" maxlength="11" >
             </p>
         </fieldset>
+        <fieldset class="qd">
+            <p>
+                <label for="iest"> Estado </label>
+                <select name="estado" id="iest">
+
+
+                <option value="" selected>-- Escolha --</option>
+                <optgroup label="Região sudeste">
+                    <option value="MG">Minas gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP" >São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+
+                </optgroup>
+
+            </select>
+
+            </p>
+
+            <p>
+                <label for="iprof"> Profissão: </label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option value="ADM"> Administrador</option>
+                    <option value="CONT"> Contador</option>
+                    <option value="PROF"> Professor</option>
+                    <option value="DEV"> Desenvolvedor</option>
+                    <option value="ENG"> Engenheiro</option>
+
+                </datalist>
+            </p>
+
+
+        </fieldset>
 
         <fieldset class="qd" >
             <legend>Sexo</legend>
@@ -113,6 +152,12 @@
                 <input type="file" name="foto" id="ifoto">
                 
             </p>
+            
+            <p>
+                <label for="imsg"> Mensagem:</label>
+                <textarea type="msg" name="msg" id="imsg" cols="60" rows="3"></textarea>
+    
+                </p>
         </fieldset>
     </form>
 
